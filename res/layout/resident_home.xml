@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02A2B3" >
+
+    <Button
+        android:id="@+id/logout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:background="#02A2B3"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/signcomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logout2"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="Signed Complaints"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/anoncomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/signcomp"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="Anon Complaints"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/mycomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewnotices"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="My Complaints"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/viewnotices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/anoncomp"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="View Notices"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

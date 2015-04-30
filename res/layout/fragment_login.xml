@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logos" />
+
+    <EditText
+        android:id="@+id/usernam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:hint="Username">
+        <requestFocus />
+        </EditText>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/usernam"
+        android:layout_toLeftOf="@+id/usernam"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernam"
+        android:layout_alignRight="@+id/usernam"
+        android:layout_alignTop="@+id/imageView3"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp" 
+        android:hint="Password">
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#2AC3D6"
+        android:text="Sign In"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/pswd"
+        android:src="@drawable/settings" />
+
+</RelativeLayout>

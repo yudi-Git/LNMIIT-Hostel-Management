@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#02A2B3"
+        android:src="@drawable/anonymous" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center"
+        android:text="SUBJECT"
+        android:background="@drawable/grey1"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/anon_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/subject"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:background="#02A2B3"
+        android:text="Logout"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/subject"
+        android:background="@drawable/grey1"
+        android:gravity="center"
+        android:text="COMPLAINT DESCRIPTION"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/complaint_desc"
+        android:layout_alignRight="@+id/complaint_desc"
+        android:layout_below="@+id/complaint_desc"
+        android:layout_marginTop="17dp"
+        android:background="#2AC3D6"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/clear2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/submit1"
+        android:layout_alignRight="@+id/complaint_desc"
+        android:layout_below="@+id/submit1"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Clear"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/complaint_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subject"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+ 
+</RelativeLayout>

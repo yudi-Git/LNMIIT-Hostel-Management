@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#02A2B3" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/signed" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/grey1"
+                android:gravity="center"
+                android:text="DEPARTMENT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/sign_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView0"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#02A2B3"
+                android:text="Logout"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/radioSet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/designation" >
+
+            <RadioButton
+                android:id="@+id/inventory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="40dp"
+                android:text="Inventory" >
+
+                <requestFocus />
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/itdepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="IT Department" />
+
+            <RadioButton
+                android:id="@+id/cleaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Cleaning" />
+
+            <RadioButton
+                android:id="@+id/electrical"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="51dp"
+                android:text="Electrical" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/grey1"
+            android:gravity="center"
+            android:text="HOSTEL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <RadioGroup
+            android:id="@+id/radioSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/designation" >
+
+            <RadioButton
+                android:id="@+id/bh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton5"
+                android:layout_below="@+id/radioButton5"
+                android:layout_marginLeft="40dp"
+                android:text="Boys Hostel-3" />
+
+            <RadioButton
+                android:id="@+id/gh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/radioButton7"
+                android:layout_alignBottom="@+id/radioButton7"
+                android:layout_alignLeft="@+id/radioButton6"
+                android:layout_marginLeft="40dp"
+                android:text="Girls Hostel" />
+
+            <RadioButton
+                android:id="@+id/bh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="40dp"
+                android:text="Boys Hostel-1" />
+
+            <RadioButton
+                android:id="@+id/bh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/radioButton8"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="17dp"
+                android:text="Boys Hostel-2" />
+        </RadioGroup>
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/room_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Room Number"
+                android:paddingLeft="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/room_number"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/signcomp_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/grey1"
+            android:gravity="center"
+            android:text="SUBJECT"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/subject_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/complaint_description1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/subject_description"
+            android:background="@drawable/grey1"
+            android:gravity="center"
+            android:text="COMPLAINT DESCRIPTION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/complaint_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#2AC3D6"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/clear3"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#2AC3D6"
+            android:gravity="center"
+            android:text="Clear"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

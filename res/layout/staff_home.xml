@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02A2B3" >
+
+    <Button
+        android:id="@+id/staff_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:background="#02A2B3"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/postnotice"
+        android:layout_marginTop="26dp"
+        android:background="#2AC3D6"
+        android:text="Review Complaints"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/mynotices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/review"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="My Notices"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/postnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/staff_logout"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Post Notices"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
