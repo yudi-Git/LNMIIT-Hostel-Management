@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02A2B3" >
+
+    <Button
+        android:id="@+id/logout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:background="#02A2B3"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/bh1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logout4"
+        android:layout_marginTop="25dp"
+        android:background="#2AC3D6"
+        android:text="Boys Hostel-1"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bh3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bh2"
+        android:layout_marginTop="23dp"
+        android:background="#2AC3D6"
+        android:text="Boys Hostel-3"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bh1"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Boys Hostel-2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/gh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bh3"
+        android:layout_marginTop="20dp"
+        android:background="#2AC3D6"
+        android:text="Girls Hostel"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

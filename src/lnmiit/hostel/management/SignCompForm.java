@@ -28,7 +28,7 @@ public class SignCompForm extends Activity {
 	String room_number, com_desc, hostel, department, username,
 			subject, status = "pending", userid;
 	//private static String ip = "172.22.101.51";
-	private static String ip = "10.0.2.2";
+	private static String ip = SessionManagement.ip;
 	private static String url_sign_comp_details = "http://"+ip+":81/android_connect/create_signed_complaint.php";
 	private static final String TAG_SUCCESS = "success";
 	private RadioGroup radioGroup1,radioGroup;

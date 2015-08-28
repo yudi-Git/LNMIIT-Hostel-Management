@@ -23,7 +23,8 @@ public class ResidentHome extends Activity {
 
 	Button b1, b2, b3, b4, b5;
 	JSONParser jParser = new JSONParser();
-	private static String url_notice_details = "http://10.0.2.2:81/android_connect/get_notice_details.php";
+	private static String ip = SessionManagement.ip;
+	private static String url_notice_details = "http://"+ip+":81/android_connect/get_notice_details.php";
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_DESIG = "designation";
 	private static final String TAG_SUBJECT = "subject";
@@ -71,6 +72,15 @@ public class ResidentHome extends Activity {
 				Intent i = new Intent(ResidentHome.this,ViewNotice.class);
 				startActivity(i);
 				
+			}
+		});
+		b4.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ResidentHome.this,MyComplaintsSelect.class);
+				startActivity(i);
 			}
 		});
 		b5.setOnClickListener(new OnClickListener() {

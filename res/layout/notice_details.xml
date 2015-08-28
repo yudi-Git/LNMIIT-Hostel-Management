@@ -50,7 +50,7 @@
         android:textColor="#ffffff" />
 
     <Button
-        android:id="@+id/logout21"
+        android:id="@+id/logoutNotDet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView1"

@@ -28,7 +28,7 @@ import android.widget.Toast;
 
 public class ViewNotice extends Activity {
 
-	private static String ip = "10.0.2.2";
+	private static String ip = SessionManagement.ip;
 	private static String url_view_notice_details = "http://" + ip
 			+ ":81/android_connect/get_notice_details.php";
 	private static final String TAG_NOTICE = "notice";

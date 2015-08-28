@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02A2B3" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/department" />
+
+    <Button
+        android:id="@+id/electrical"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/inventory"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Electrical"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/cleaning"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/IT"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Cleaning"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/inventory"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="19dp"
+        android:background="#2AC3D6"
+        android:text="Inventory"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/IT"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/electrical"
+        android:layout_marginTop="21dp"
+        android:background="#2AC3D6"
+        android:text="IT Department"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/logout41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#02A2B3"
+        android:text="Logout"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

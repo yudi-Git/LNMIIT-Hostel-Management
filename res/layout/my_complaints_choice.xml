@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02A2B3" >
+
+    <Button
+        android:id="@+id/logout37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:background="#02A2B3"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/mysigncomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logout37"
+        android:layout_marginTop="76dp"
+        android:background="#2AC3D6"
+        android:text="Signed Complaints"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/myanoncomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mysigncomp"
+        android:layout_marginTop="20dp"
+        android:background="#2AC3D6"
+        android:text="Anon Complaints"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

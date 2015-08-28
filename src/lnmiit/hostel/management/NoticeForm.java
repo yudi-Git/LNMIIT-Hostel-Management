@@ -23,7 +23,7 @@ public class NoticeForm extends Activity {
 	EditText  NOTICE_DESC, DESIG;
 	String subject, notice_desc,userid, designation;
 	//private static String ip = "172.22.101.51";
-	private static String ip = "10.0.2.2";
+	private static String ip = SessionManagement.ip;
 	private static String url_notice_details = "http://"+ip+":81/android_connect/create_notice.php";
 	private SessionManagement session1;// global variable
 	JSONParser jParser = new JSONParser();

@@ -7,10 +7,12 @@ import android.preference.PreferenceManager;
 public class SessionManagement {
 
 	private SharedPreferences prefs;
+	static public String ip = "10.0.2.2";
 
 	public SessionManagement(Context cntx) {
 		// TODO Auto-generated constructor stub
 		prefs = PreferenceManager.getDefaultSharedPreferences(cntx);
+		
 	}
 
 	public void setusertype(String usertype) {

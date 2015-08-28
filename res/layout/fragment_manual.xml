@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#2e4e8e" >
-    
-</RelativeLayout>
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="USER MANUAL\n\nFor Hostel Residents\n\n
+Logging in to the Hostel Management app\n\n
+You can log in to the application with a valid set of username and password.
+If you have problems logging in, or have forgotten your password please contact the IT Department.
+Logging in takes you directly to the home page.\n\n
+Submitting signed/anonymous complaints\n\n
+Logging in to the app is necessary for submitting complaints.
+You need to select the option for submitting complaints on the homepage, either signed or anonymous.
+According to the option selected, a form will be displayed.
+Fill the fields with valid information and submit it.
+A message notifying a successful submission will be displayed.
+The application ensures that your identity will be only visible to the super user in case of an anonymous complaint.\n\n
+Modifying complaints\n\n
+Logging in to the app is necessary for modifying complaints.
+You can view the list of your complaints by the selecting the My Complaints option on the home page.
+Select a particular complaint.
+You are provided with two options - Modify or Delete.
+Select the modify option.
+Make the required modifications and submit the complaint.\n\n
+Deleting complaints\n\n
+Logging in to the app is necessary for deleting complaints.
+You can view the list of your complaints by the selecting the My Complaints option on the home page.
+Select a particular complaint.
+You are provided with two options - Modify or Delete.
+Select the delete option.
+The application asks for confirmation.
+Select Yes if you want to delete it and No otherwise.\n\n
+Viewing notices\n\n
+No login is required to view the notices posted by the hostel management staff.
+You can visit the Notices tab and go through the notices anytime.\n\n
+For Hostel Management Staff\n\n
+Logging in to the Hostel Management app\n\n
+You can log in to the application with a valid set of username and password.
+If you have problems logging in, or have forgotten your password please contact the IT Department.
+Logging in takes you directly to the home page.\n\n
+Reviewing complaints\n\n
+Logging in to the app is necessary for reviewing complaints.
+You need to select the option for reviewing complaints.
+You can select the required hostel and department.
+The list of complaints for the selected department of the selected hostel will be displayed.
+You can change the status to addressed if the complaint has been addressed.
+The status is pending by default.\n\n
+Posting Notices\n\n
+Logging in to the app is necessary for posting notices.
+You need to select the option to post a notice.
+Fill the fields of the displayed form with valid details and submit it.
+The notice will be posted in the Notices section.\n\n
+Modifying notices\n\n
+Logging in to the app is necessary for modifying notices.
+You can view the list of your notices by the selecting the My Notices option.
+Select a particular notice.
+You are provided with two options - Modify or Delete.
+Select the modify option.
+Make the required modifications and submit the notice.\n\n
+Deleting notices\n\n
+Logging in to the app is necessary for deleting notices.
+You can view the list of your notices by the selecting the My Notices option.
+Select a particular notice.
+You are provided with two options - Modify or Delete.
+Select the delete option.
+The application asks for confirmation.
+Select Yes if you want to delete it and No otherwise.\n\n
+For Super User\n\n
+Logging in to the Hostel Management app\n\n
+You can log in to the application with a valid set of username and password.
+If you have problems logging in, or have forgotten your password please contact the IT Department.
+Logging in takes you directly to the home page.\n\n
+Reviewing complaints\n\n
+Logging to the app is necessary for reviewing complaints.
+You need to select the option for reviewing complaints.
+You can select the type of complaints that you want to review - signed or anonymous.
+The list of complaints for the selected type will be displayed.
+You can accept/reject the anonymous complaints on the basis of their authenticity by selecting the respective options.
+You can change the status to addressed if the complaint has been addressed.
+The status is pending by default." />
+
+</ScrollView>
