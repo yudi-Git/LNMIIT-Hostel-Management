@@ -24,7 +24,7 @@ public class AnonCompForm extends Activity {
 	String subject, com_desc, userid, status = "pending",
 			appr_status = "Not approved";
 	//private static String ip = "172.22.101.51";
-	private static String ip = "10.0.2.2";
+	private static String ip = SessionManagement.ip;
 	private static String url_anon_comp_details = "http://"+ip+":81/android_connect/create_anon_complaint.php";
 	private SessionManagement session1;// global variable
 	JSONParser jParser = new JSONParser();
