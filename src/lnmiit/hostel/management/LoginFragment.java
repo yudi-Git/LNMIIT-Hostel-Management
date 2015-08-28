@@ -28,7 +28,7 @@ public class LoginFragment extends Fragment {
 	JSONParser jParser = new JSONParser();
 	// url to get all products list
 	//private static String ip = "172.22.101.51";
-	private static String ip = "10.0.2.2";
+	private static String ip = SessionManagement.ip;
 	private static String url_login_details = "http://"+ip+":81/android_connect/get_login_details.php";
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_ID = "id";
